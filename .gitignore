@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
+.vscode
+
+
+# debug
+npm-debug.log*
+
+# local env files
+.env*.local
