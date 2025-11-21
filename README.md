@@ -4,3 +4,10 @@
 ## Ссылки
 - [Публичная страница на GitHub Pages](https://BeTeP0C.github.io/
 mirea-front/)
+
+# Эта команда связывает ваш локальный репозиторий с удаленным на GitHub.
+# origin — это стандартное имя для удаленного репозитория по умолчанию.
+git remote add origin https://github.com/BeTeP0C/mirea-front.git
+# Эта команда отправляет (push) вашу ветку main на удаленный репозиторий (origin)
+# и устанавливает ее как upstream-ветку (флаг -u) для будущих синхронизаций.
+git push -u origin main
