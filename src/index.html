@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Avion</title>
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
@@ -12,16 +12,32 @@
       <div class="container header__container">
         <div class="header__top">
           <div class="header__left">
-            <button class="button__search"></button>
+            <button class="button__search">
+              <svg class="search__icon" width="32px" height="32px" viewBox="0 0 632.399 632.399">
+                <path d="M255.108,0C119.863,0,10.204,109.66,10.204,244.904c0,135.245,109.659,244.905,244.904,244.905c52.006,0,100.238-16.223,139.883-43.854l185.205,185.176c1.671,1.672,4.379,1.672,5.964,0.115l34.892-34.891c1.613-1.613,1.47-4.379-0.115-5.965L438.151,407.605c38.493-43.246,61.86-100.237,61.86-162.702C500.012,109.66,390.353,0,255.108,0z M255.108,460.996c-119.34,0-216.092-96.752-216.092-216.092c0-119.34,96.751-216.091,216.092-216.091s216.091,96.751,216.091,216.091C471.199,364.244,374.448,460.996,255.108,460.996z" fill="currentColor"/>
+              </svg>
+            </button>
           </div>
 
           <div class="header__logo-wrapper">
-            <img src="" alt="">
+            <img src="../assets/icons/logo.svg" alt="Логотип" width="400" height="100">
           </div>
 
           <div class="header__right">
-            <button class="header__cart"></button>
-            <a href="/" class="header__profile"></a>
+            <button class="header__cart">
+              <svg class="cart__icon" width="32px" height="32px" viewBox="0 0 32 32">
+                <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="25" cy="27" r="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="12" cy="27" r="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <a href="/" class="header__profile">
+              <svg class="profile__icon" width="32px" height="32px" viewBox="0 0 230 230">
+                <path d="M115,15A100.11,100.11,0,0,1,215,115,98.89,98.89,0,0,1,203.7,161.2a101.14,101.14,0,0,1-30.14,34.86,100,100,0,0,1-117.12,0A101.06,101.06,0,0,1,26.29,161.2,98.89,98.89,0,0,1,15,115,100.11,100.11,0,0,1,115,15m0-15A115,115,0,1,0,230,115,115,115,0,0,0,115,0Z" fill="currentColor"/>
+                <path d="M122.27,145.08a45.14,45.14,0,0,1,45.08,45.09v10a100.12,100.12,0,0,1-104.71,0v-10a45.14,45.14,0,0,1,45.08-45.09h14.55m0-15H107.72a60.08,60.08,0,0,0-60.08,60.09v18a115,115,0,0,0,134.71,0v-18a60.08,60.08,0,0,0-60.08-60.09Z" fill="currentColor"/>
+                <path d="M115,73.31A18.82,18.82,0,1,1,96.18,92.12,18.83,18.83,0,0,1,115,73.31m0-15a33.82,33.82,0,1,0,33.81,33.81A33.82,33.82,0,0,0,115,58.31Z" fill="currentColor"/>
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -29,25 +45,25 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Plant pots</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Ceramics</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Tables</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Chairs</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Crockery</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Tableware</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href=""></a>
+                <a class="header__link" href="/">Cutlery</a>
               </li>
             </ul>
           </nav>
@@ -58,23 +74,25 @@
     <main class="main">
       <section class="hero">
         <div class="container hero__container">
-          <!-- Либо через псевдоэлементы -->
-          <div class="hero__background_left"></div>
-          <div class="hero__background_right"></div>
-
           <div class="hero__content">
             <div class="hero__left">
               <div class="hero__info">
-                <h1 class="hero__heading"></h1>
+                <h1 class="hero__heading">
+                  The furniture brand for the future, with timeless designs
+                </h1>
 
-                <a href="hero__collection"></a>
+                <a href="hero__collection">View collection</a>
               </div>
 
-              <p class="hero__description"></p>
+              <p class="hero__description">
+                A new era in eco friendly furniture with Avelon, the French luxury retail brand
+                with nice fonts, tasteful colors and a beautiful way to display things digitally
+                using modern web technologies.
+              </p>
             </div>
 
             <div class="hero__right">
-              <img class="hero__img" src="" alt="">
+              <img class="hero__img" src="../assets/img/hero_bg.png" alt="Стул">
             </div>
           </div>
         </div>
@@ -82,46 +100,66 @@
 
       <section class="features">
         <div class="container features__container">
-          <h2 class="features__heading"></h2>
+          <h2 class="features__heading">What makes our brand different</h2>
 
           <ul class="features__list">
             <li class="features__item">
               <div class="feature">
-                <svg class="feature__icon"></svg>
+                <svg class="feature__icon" width="32" height="32">
+                  <rect x="4" y="16" width="12" height="2"/>
+                  <rect x="2" y="11" width="10" height="2"/>
+                  <path d="M29.9189,16.6064l-3-7A.9985.9985,0,0,0,26,9H23V7a1,1,0,0,0-1-1H6V8H21V20.5562A3.9924,3.9924,0,0,0,19.1421,23H12.8579a4,4,0,1,0,0,2h6.2842a3.9806,3.9806,0,0,0,7.7158,0H29a1,1,0,0,0,1-1V17A.9965.9965,0,0,0,29.9189,16.6064ZM9,26a2,2,0,1,1,2-2A2.0023,2.0023,0,0,1,9,26ZM23,11h2.3408l2.1431,5H23Zm0,15a2,2,0,1,1,2-2A2.0023,2.0023,0,0,1,23,26Zm5-3H26.8579A3.9954,3.9954,0,0,0,23,20V18h5Z"/>
+                </svg>
+
 
                 <div class="feature__info">
-                  <h3 class="feature__heading"></h3>
-                  <p class="feature__description"></p>
+                  <h3 class="feature__heading">Next day as standard</h3>
+                  <p class="feature__description">
+                    Order before 3pm and get your order the next day as standard
+                  </p>
                 </div>
               </div>
             </li>
             <li class="features__item">
               <div class="feature">
-                <svg class="feature__icon"></svg>
+                <svg class="feature__icon" width="32" height="32">
+                  <path d="M12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 Z M12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 Z M15.1464466,9.14644661 C15.3417088,8.95118446 15.6582912,8.95118446 15.8535534,9.14644661 C16.0488155,9.34170876 16.0488155,9.65829124 15.8535534,9.85355339 L10.8535534,14.8535534 C10.6582912,15.0488155 10.3417088,15.0488155 10.1464466,14.8535534 L8.14644661,12.8535534 C7.95118446,12.6582912 7.95118446,12.3417088 8.14644661,12.1464466 C8.34170876,11.9511845 8.65829124,11.9511845 8.85355339,12.1464466 L10.5,13.7928932 L15.1464466,9.14644661 Z"/>
+                </svg>
 
                 <div class="feature__info">
-                  <h3 class="feature__heading"></h3>
-                  <p class="feature__description"></p>
+                  <h3 class="feature__heading">Made by true artisans</h3>
+                  <p class="feature__description">
+                    Handmade crafted goods made with real passion and craftmanship
+                  </p>
                 </div>
               </div>
             </li>
             <li class="features__item">
               <div class="feature">
-                <svg class="feature__icon"></svg>
+                <svg class="feature__icon" width="32" height="32">
+                  <path d="M28,6H4A2,2,0,0,0,2,8V24a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V8A2,2,0,0,0,28,6Zm0,2v3H4V8ZM4,24V13H28V24Z"/>
+                  <rect x="6" y="20" width="10" height="2"/>
+                </svg>
 
                 <div class="feature__info">
-                  <h3 class="feature__heading"></h3>
-                  <p class="feature__description"></p>
+                  <h3 class="feature__heading">Unbeatable prices</h3>
+                  <p class="feature__description">
+                    For our materials and quality you won’t find better prices anywhere
+                  </p>
                 </div>
               </div>
             </li>
             <li class="features__item">
               <div class="feature">
-                <svg class="feature__icon"></svg>
+                <svg class="feature__icon" width="32" height="32">
+                  <path d="M25,2A11.01,11.01,0,0,0,14.7549,9.0244,6.9939,6.9939,0,0,0,9,6H6V9a7.0078,7.0078,0,0,0,7,7h1v9.0493a9.9229,9.9229,0,0,0-6.071,2.8794l1.414,1.4141a8,8,0,0,1,12.3086,1.2134l1.6616-1.1128A9.98,9.98,0,0,0,16,25.062V16h1A11.0125,11.0125,0,0,0,28,5V2ZM13,14A5.0057,5.0057,0,0,1,8,9V8H9a5.0054,5.0054,0,0,1,5,5v1ZM26,5a9.01,9.01,0,0,1-9,9H16V13a9.01,9.01,0,0,1,9-9h1Z"/>
+                </svg>
 
                 <div class="feature__info">
-                  <h3 class="feature__heading"></h3>
-                  <p class="feature__description"></p>
+                  <h3 class="feature__heading">Recycled packaging</h3>
+                  <p class="feature__description">
+                    We use 100% recycled packaging to ensure our footprint is manageable
+                  </p>
                 </div>
               </div>
             </li>
@@ -131,117 +169,117 @@
 
       <section class="new-products">
         <div class="container new-products__container">
-          <h2 class="new-products__heading"></h2>
+          <h2 class="new-products__heading">New ceramics</h2>
 
           <div class="new-products__content">
             <ul class="new-products__list">
               <li class="new-products__item">
                 <article class="product">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/new-products_img-1.png" alt="Стул">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">The Dandy chair</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£250</p>
                     </div>
                   </a>
                 </article>
               </li>
               <li class="new-products__item">
                 <article class="product">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/new-products_img-2.png" alt="Стул">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">Rustic Vase Set</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£155</p>
                     </div>
                   </a>
                 </article>
               </li>
               <li class="new-products__item">
                 <article class="product">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/new-products_img-3.png" alt="Ваза">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">The Silky Vase</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£125</p>
                     </div>
                   </a>
                 </article>
               </li>
               <li class="new-products__item">
                 <article class="product">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/new-products_img-4.png" alt="Люстра">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">The Lucy Lamp</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£399</p>
                     </div>
                   </a>
                 </article>
               </li>
             </ul>
 
-            <a class="link-all" href=""></a>
+            <a class="link-all" href="/">View collection</a>
           </div>
         </div>
       </section>
 
       <section class="popular-products">
         <div class="container popular-products__container">
-          <h2 class="popular-products__heading"></h2>
+          <h2 class="popular-products__heading">Our popular products</h2>
 
           <div class="popular-products__content">
             <ul class="popular-products__list">
               <li class="popular-products__item">
                 <article class="product product_main">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/popular-products_img-1.png" alt="Диван">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">The Poplar suede sofa</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£980</p>
                     </div>
                   </a>
                 </article>
               </li>
               <li class="popular-products__item">
                 <article class="product">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/new-products_img-3.png" alt="Стул">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">The Dandy chair</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£250</p>
                     </div>
                   </a>
                 </article>
               </li>
               <li class="popular-products__item">
                 <article class="product">
-                  <a class="product__link" href="">
-                    <img class="product__img" src="" alt="">
+                  <a class="product__link" href="/">
+                    <img class="product__img" src="../assets/img/new-products_img-4.png" alt="Стул">
 
                     <div class="product__info">
-                      <h3 class="product__title"></h3>
+                      <h3 class="product__title">The Dandy chair</h3>
 
-                      <p class="product__price"></p>
+                      <p class="product__price">£250</p>
                     </div>
                   </a>
                 </article>
               </li>
             </ul>
 
-            <a class="link-all" href=""></a>
+            <a class="link-all" href="/"></a>
           </div>
         </div>
       </section>
@@ -249,13 +287,15 @@
       <section class="join">
         <div class="container join__container">
           <div class="join__info">
-            <h2 class="join__heading"></h2>
-            <p class="join__description"></p>
+            <h2 class="join__heading">Join the club and get the benefits</h2>
+            <p class="join__description">
+              Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
+            </p>
           </div>
 
-          <form class="join__form" action="">
-            <input class="join__input" type="email" >
-            <button class="join__submit" type="submit"></button>
+          <form class="join__form" action="POST">
+            <input class="join__input" type="email" placeholder="your@email.com">
+            <button class="join__submit" type="submit">Sign up</button>
           </form>
         </div>
       </section>
@@ -264,16 +304,23 @@
         <div class="container achievement__container">
           <div class="achievement__left">
             <div class="achievement__content">
-              <h2 class="achievement__heading"></h2>
+              <h2 class="achievement__heading">
+                From a studio in London to a global brand with over 400 outlets
+              </h2>
 
-              <p class="achievement__description"></p>
+              <p class="achievement__description">
+                When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market./n
+                Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.
+              </p>
             </div>
 
-            <a class="achievement__link" href=""></a>
+            <a class="achievement__link" href="/">Get in touch</a>
           </div>
 
-          <!-- background -->
-          <div class="achievement__right"></div>
+          <div
+            class="achievement__right"
+            style="background: url('../assets/img/achivment_img-1.png') center center no-repeat transparent;"
+          ></div>
         </div>
       </section>
     </main>
@@ -283,74 +330,74 @@
         <div class="footer__top">
           <div class="footer__left">
             <div class="footer__nav-block">
-              <h2 class="footer__heading"></h2>
+              <h2 class="footer__heading">Menu</h2>
 
               <nav class="footer__nav">
                 <ul class="footer__list">
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">New arrivals</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Best sellers</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Recently viewed</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Popular this week</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">All products</a>
                   </li>
                 </ul>
               </nav>
             </div>
             <div class="footer__nav-block">
-              <h2 class="footer__heading"></h2>
+              <h2 class="footer__heading">Categories</h2>
 
               <nav class="footer__nav">
                 <ul class="footer__list">
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Crockery</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Furniture</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Homeware</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Plant pots</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Chairs</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Crockery</a>
                   </li>
                 </ul>
               </nav>
             </div>
 
             <div class="footer__nav-block">
-              <h2 class="footer__heading"></h2>
+              <h2 class="footer__heading">Our company</h2>
 
               <nav class="footer__nav">
                 <ul class="footer__list">
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">About us</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Vacancies</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Contact us</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Privacy</a>
                   </li>
                   <li class="footer__item">
-                    <a class="footer__link" href=""></a>
+                    <a class="footer__link" href="/">Returns policy</a>
                   </li>
                 </ul>
               </nav>
@@ -358,12 +405,12 @@
           </div>
 
           <div class="footer__right">
-            <form class="footer__form" action="">
-              <label class="footer__label" for=""></label>
+            <form class="footer__form" action="POST">
+              <label class="footer__label" for="footer-input">Join our mailing list</label>
 
               <div class="footer__fields">
-                <input class="footer__input" type="text">
-                <button type="submit" class="footer__submit"></button>
+                <input id="footer-input" class="footer__input" type="text" placeholder="your@email.com">
+                <button type="submit" class="footer__submit">Sign up</button>
               </div>
             </form>
           </div>
@@ -371,28 +418,47 @@
 
         <div class="footer__bottom">
           <div class="footer__copyright">
-            <p class="footer__copyright-text"></p>
+            <p class="footer__copyright-text">Copyright 2022 Avion LTD</p>
           </div>
 
           <div class="apps">
-            <ul class="apps-list">
-              <li class="apps-item">
-                <a class="apps-link" href=""></a>
+            <ul class="apps__list">
+              <li class="apps__item">
+                <a class="apps__link" href="/">
+                  <svg class="apps__icon" width="20px" height="20px" viewBox="0 0 510 510">
+                    <path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z M153,433.5H76.5V204H153V433.5z M114.75,160.65c-25.5,0-45.9-20.4-45.9-45.9s20.4-45.9,45.9-45.9s45.9,20.4,45.9,45.9S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z"/>
+                  </svg>
+                </a>
               </li>
               <li class="apps-item">
-                <a class="apps-link" href=""></a>
+                <a class="apps__link" href="/">
+                  <svg class="apps__icon" width="20px" height="20px" viewBox="0 0 64 64">
+                    <path fill="#4267B2" d="M62,6v52c0,2.2-1.8,4-4,4H44V36h6v-8h-6V18c0-1.1,0.9-2,2-2h6V8h-8.1c-4.3,0-7.9,3.5-7.9,7.9V28h-6v8h6v26H6c-2.2,0-4-1.8-4-4V6c0-2.2,1.8-4,4-4h52C60.2,2,62,3.8,62,6z"/>
+                  </svg>
+                </a>
               </li>
               <li class="apps-item">
-                <a class="apps-link" href=""></a>
+                <a class="apps__link" href="/">
+                  <svg class="apps__icon" width="20px" height="20px" viewBox="0 0 512 512">
+                    <path d="M505,257c0,34.8-0.7,69.7,0.2,104.5c1.5,61.6-37.2,109.2-86.5,130.4c-19.8,8.5-40.6,13-62.1,13c-67.3,0.1-134.7,1-202-0.3c-50.7-1-92.4-22.2-122.3-64c-15.7-22-23.2-47-23.2-74.1c0-71.7,0-143.3,0-215c0-58.5,28.5-99.4,79.1-126C110.2,14,134.1,9.1,159,9c65.3,0,130.7-0.4,196,0.2c50.7,0.4,93,19.8,124.2,60.6c17.4,22.8,25.8,49,25.8,77.8C505,184,505,220.5,505,257z M46,257c0,36.7,0,73.3,0,110c0,16.4,3.8,31.8,12.3,45.7c22.3,36.5,56,54.3,97.8,55c67.1,1,134.3,0.4,201.5,0.2c16.5,0,32.5-3.4,47.4-10.5c40.6-19.4,63.3-50.3,63.1-96.7c-0.4-71-0.1-142-0.1-213c0-20.1-5.7-38.5-17.6-54.7c-23-31.1-54.8-46.4-92.8-46.8c-67-0.8-134-0.3-201-0.2c-14.3,0-28.1,2.9-41.5,7.9c-36.8,13.7-71,48.4-69.4,99.5C46.9,188,46,222.5,46,257z"/>
+                    <path d="M257.6,363c-64.5,0-116.5-51.4-116.6-115.4c-0.1-63,52.3-114.6,116.4-114.6c64.3-0.1,116.5,51.4,116.6,114.9C374,311.3,321.9,362.9,257.6,363z M257.6,326c43.9,0,79.5-35.1,79.4-78.3c-0.1-42.8-35.7-77.8-79.4-77.8c-43.9,0-79.7,34.9-79.7,78C178,291.1,213.7,326.1,257.6,326z"/>
+                    <path d="M387.5,98c13.5,0,24.5,11.5,24.5,25.6c-0.1,14.1-11.2,25.5-24.7,25.4c-13.3-0.1-24.2-11.5-24.2-25.3C363,109.6,374,98,387.5,98z"/>
+                  </svg>
+                </a>
               </li>
               <li class="apps-item">
-                <a class="apps-link" href=""></a>
+                <a class="apps__link" href="/">
+                  <svg class="apps__icon" width="20px" height="20px" viewBox="0 0 430.123 430.123">
+                    <path d="M412.164,246.198c1.605-10.155,2.45-20.544,2.45-31.148c0-110.215-89.342-199.555-199.56-199.555c-10.576,0-20.995,0.871-31.141,2.458C165.534,6.581,143.842,0,120.595,0C53.996,0,0.005,53.984,0.005,120.59c0,23.242,6.585,44.916,17.952,63.332c-1.573,10.172-2.439,20.528-2.439,31.132c0,110.223,89.34,199.536,199.532,199.536c10.585,0,21.007-0.816,31.152-2.417c18.398,11.35,40.072,17.949,63.314,17.949c66.617,0,120.602-53.998,120.602-120.602C430.123,286.269,423.542,264.6,412.164,246.198z M309.801,305.81c-8.442,12.153-20.843,21.65-37.047,28.479c-16.237,6.847-35.428,10.254-57.59,10.254c-26.562,0-48.554-4.648-65.913-14.034c-12.305-6.721-22.313-15.737-30.007-26.98c-7.71-11.252-11.619-22.271-11.619-33.015c0-6.338,2.417-11.85,7.122-16.344c4.754-4.527,10.877-6.796,18.104-6.796c5.92,0,11.005,1.783,15.145,5.316c4.109,3.532,7.556,8.667,10.375,15.443c3.379,7.85,7.049,14.412,10.954,19.648c3.881,5.171,9.343,9.488,16.417,12.867c6.996,3.388,16.307,5.082,27.958,5.082c15.945,0,28.831-3.449,38.693-10.253c9.912-6.866,14.673-15.22,14.673-25.314c0-8.051-2.567-14.445-7.831-19.43c-5.312-5.05-12.172-8.896-20.685-11.579c-8.546-2.711-20.02-5.586-34.399-8.615c-19.308-4.214-35.456-9.119-48.533-14.752c-13.094-5.654-23.522-13.383-31.251-23.146c-7.745-9.859-11.607-22.113-11.607-36.627c0-13.84,4.077-26.217,12.239-36.989c8.158-10.802,19.961-19.07,35.351-24.829c15.336-5.757,33.391-8.637,54.075-8.637c16.541,0,30.849,1.914,42.96,5.722c12.078,3.836,22.146,8.898,30.196,15.25c7.999,6.338,13.885,13.023,17.613,20.038c3.725,7.036,5.601,13.908,5.601,20.614c0,6.235-2.417,11.89-7.127,16.846c-4.709,4.963-10.733,7.493-17.768,7.47c-6.342,0-11.317-1.463-14.767-4.56c-3.36-2.996-6.889-7.766-10.706-14.414c-4.825-9.276-10.604-16.503-17.324-21.672c-6.543-5.073-17.338-7.714-32.359-7.682c-13.898,0-25.018,2.84-33.411,8.394c-8.445,5.643-12.482,12.19-12.501,19.861c0.014,4.807,1.396,8.86,4.177,12.326c2.824,3.498,6.753,6.529,11.803,9.084c5.052,2.595,10.191,4.602,15.355,6.046c5.225,1.481,13.894,3.622,25.944,6.457c15.112,3.257,28.819,6.896,41.136,10.862c12.293,3.986,22.784,8.793,31.451,14.52c8.736,5.71,15.564,12.99,20.438,21.783c4.909,8.807,7.354,19.564,7.354,32.222C322.509,279.968,318.263,293.676,309.801,305.81z"/>
+                  </svg>
+                </a>
               </li>
               <li class="apps-item">
-                <a class="apps-link" href=""></a>
-              </li>
-              <li class="apps-item">
-                <a class="apps-link" href=""></a>
+                <a class="apps__link" href="/">
+                  <svg class="apps__icon" width="20px" height="20px" viewBox="0 0 512 512">
+                    <path d="M4,440.5c55.6,5,105.7-9,151.3-43.2c-47.7-4.2-79.6-28-97.4-72.6c15.6,1.9,30.2,2.4,45.7-1.8c-51.4-16-78.8-49.6-82.5-103.8c15.4,7.2,29.9,12.4,47,12.6c-30.5-22.9-46.1-52.6-45.5-90c0.3-17.2,4.9-33.4,14-48.7C93.1,159.1,164,195.7,251.3,201.8c-0.5-3.8-0.8-6.8-1.2-9.9c-7.2-55.4,28.8-105.8,83.8-116.3c34.5-6.6,65,2.5,90.8,26.3c4,3.6,7.4,4.4,12.4,3.1c20.1-5.1,39.2-12.5,57.7-22.5c-7.1,23.4-21.7,41-41.5,55.8c4.5-0.8,9.1-1.4,13.6-2.3c4.7-1,9.4-2.1,14.1-3.4c4.5-1.2,8.9-2.6,13.3-4.1c4.5-1.5,9-3.2,14.3-4.1c-2.6,3.6-5.1,7.4-7.9,10.9c-11.6,14.7-25,27.6-39.7,39.1c-1.5,1.2-2.8,3.8-2.7,5.6c0.8,35.5-4.2,70.1-15.7,103.7c-22.6,66.2-62,119.8-121.1,158.1c-29.2,18.9-61.1,31.3-95.2,38.5c-33.8,7.1-67.8,8.4-101.9,4.4c-34.2-4-66.7-14.1-97.3-29.9c-8.1-4.1-15.9-8.7-23.8-13.1C3.6,441.3,3.8,440.9,4,440.5z"/>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
